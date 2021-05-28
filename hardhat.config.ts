@@ -1,9 +1,9 @@
 import { HardhatUserConfig, task } from "hardhat/config";
-import "@nomiclabs/hardhat-waffle";
+import "hardhat-deploy";
+import "hardhat-deploy-ethers";
+import "hardhat-prettier";
 import "hardhat-typechain";
 import "solidity-coverage";
-import "hardhat-prettier";
-import "@nomiclabs/hardhat-etherscan";
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -23,6 +23,9 @@ task("accounts", "Prints the list of accounts", async (_args, hre) => {
  */
 const config: HardhatUserConfig = {
   solidity: "0.7.3",
+  namedAccounts: {
+    deployer: 0
+  }
 };
 
 export default config;

@@ -1,20 +1,22 @@
-import { ethers } from "hardhat";
-import { expect } from "chai";
-import { Greeter, GreeterFactory } from "../typechain";
+import { expect } from "./chai-setup";
+import { Greeter } from "../typechain";
+import { ethers, deployments } from "hardhat";
+
+const setup = async () => {
+  await deployments.fixture(["Greeter"]);
+  const contracts = {
+    Greeter: await ethers.getContract("Greeter") as Greeter,
+  };
+
+  return { ...contracts };
+};
 
 describe("Greeter", function () {
-  let greeter: Greeter;
-  let greeterFactory: GreeterFactory;
   it("Should return the new greeting once it's changed", async function () {
-    greeterFactory = (await ethers.getContractFactory(
-      "Greeter"
-    )) as GreeterFactory;
-    greeter = await greeterFactory.deploy("Hello, world!");
+    const { Greeter } = await setup();
+    expect(await Greeter.greet()).to.equal("Hello Hardhat!");
 
-    await greeter.deployed();
-    expect(await greeter.greet()).to.equal("Hello, world!");
-
-    await greeter.setGreeting("Hola, mundo!");
-    expect(await greeter.greet()).to.equal("Hola, mundo!");
+    await Greeter.setGreeting("Hola, mundo!");
+    expect(await Greeter.greet()).to.equal("Hola, mundo!");
   });
 });
