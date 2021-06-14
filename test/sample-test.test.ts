@@ -5,7 +5,7 @@ import { ethers, deployments } from "hardhat";
 const setup = async () => {
   await deployments.fixture(["Greeter"]);
   const contracts = {
-    Greeter: await ethers.getContract("Greeter") as Greeter,
+    Greeter: (await ethers.getContract("Greeter")) as unknown as Greeter,
   };
 
   return { ...contracts };
