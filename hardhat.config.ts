@@ -1,4 +1,6 @@
 import { HardhatUserConfig, task } from "hardhat/config";
+import { config as dotEnvConfig } from "dotenv";
+dotEnvConfig();
 import "hardhat-deploy";
 import "hardhat-deploy-ethers";
 import "hardhat-prettier";
@@ -24,8 +26,8 @@ task("accounts", "Prints the list of accounts", async (_args, hre) => {
 const config: HardhatUserConfig = {
   solidity: "0.7.3",
   namedAccounts: {
-    deployer: 0
-  }
+    deployer: 0,
+  },
 };
 
 export default config;
