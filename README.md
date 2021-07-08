@@ -11,7 +11,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -19,7 +18,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/0xdavinchee/hardhat-ts-template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.svg" alt="Logo">
   </a>
 
   <h3 align="center">Hardhat TypeScript Template</h3>
@@ -167,15 +166,14 @@ Project Link: [https://github.com/0xdavinchee/hardhat-ts-template](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/0xdavinchee/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/0xdavinchee/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/0xdavinchee/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/0xdavinchee/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/0xdavinchee/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/0xdavinchee/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/0xdavinchee/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/0xdavinchee/repo/issues
-[license-shield]: https://img.shields.io/github/license/0xdavinchee/repo.svg?style=for-the-badge
-[license-url]: https://github.com/0xdavinchee/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/0xdavinchee/hardhat-ts-template.svg?style=for-the-badge
+[contributors-url]: https://github.com/0xdavinchee/hardhat-ts-template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/0xdavinchee/hardhat-ts-template.svg?style=for-the-badge
+[forks-url]: https://github.com/0xdavinchee/hardhat-ts-template/network/members
+[stars-shield]: https://img.shields.io/github/stars/0xdavinchee/hardhat-ts-template.svg?style=for-the-badge
+[stars-url]: https://github.com/0xdavinchee/hardhat-ts-template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/0xdavinchee/hardhat-ts-template.svg?style=for-the-badge
+[issues-url]: https://github.com/0xdavinchee/hardhat-ts-template/issues
+[license-shield]: https://img.shields.io/github/license/0xdavinchee/hardhat-ts-template.svg?style=for-the-badge
+[license-url]: https://github.com/0xdavinchee/hardhat-ts-template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/0xdavinchee
