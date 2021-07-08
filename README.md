@@ -18,7 +18,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/0xdavinchee/hardhat-ts-template">
-    <img src="images/logo.svg" alt="Logo">
+    <img src="images/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Hardhat TypeScript Template</h3>
@@ -157,8 +157,8 @@ Project Link: [https://github.com/0xdavinchee/hardhat-ts-template](https://githu
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Paul R Berg Solidity Template](https://github.com/paulrberg/solidity-template)
 * [Hardhat](https://hardhat.org)
+* [Paul R Berg Solidity Template](https://github.com/paulrberg/solidity-template)
 
 
 
