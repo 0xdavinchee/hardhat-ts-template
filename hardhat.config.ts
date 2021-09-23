@@ -54,11 +54,8 @@ const config: HardhatUserConfig = {
     },
     networks: {
         hardhat: {
-            //   forking: {
-            // 	url: createUrl("mainnet"),
-            //   },
-            // hardfork: "london",
-            // gasPrice: "auto"
+            hardfork: "london",
+            gasPrice: "auto"
         },
         goerli: createTestnetConfig("goerli"),
         kovan: createTestnetConfig("kovan"),
